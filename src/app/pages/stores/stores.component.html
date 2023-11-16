@@ -200,7 +200,7 @@
                   <div class="col-sm-4" (click)="openCountryModel()">
                     <div class="form-group">
                       <label>{{util.translate('Country code')}}</label>
-                      <input type="text" disabled class="form-control"
+                      <input type="text"  class="form-control"
                         [class]="submited && country_code =='' ? 'req':''" [ngModelOptions]="{standalone: true}"
                         [(ngModel)]="displayed" [placeholder]="util.translate('Country code')">
                     </div>
