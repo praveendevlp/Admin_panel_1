@@ -8,7 +8,7 @@
 */
 export const environment = { 
  production: false,
-  baseUrl: 'http://api.vazhaiilai.com/api/',
-  imageUrl: 'http://api.vazhaiilai.com/storage/images/',
+  baseUrl: 'https://vazhaiilai.com/api/',
+  imageUrl: 'https://vazhaiilai.com/api/storage/images/',
   appName: 'Vazhaiilai',
 };
