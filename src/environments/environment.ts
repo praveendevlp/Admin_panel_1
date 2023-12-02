@@ -9,6 +9,10 @@
 export const environment = { 
  production: false,
   baseUrl: 'https://api.vazhaiilai.com/api/',
+<<<<<<< HEAD
   imageUrl: 'https://api.vazhaiilai.com/api/storage/images/',
+=======
+  imageUrl: 'https://api.vazhaiilai.com/api/storage/app/public/images/',
+>>>>>>> 579d0da2aa5f76deade4ecde2860b436de9b6f92
   appName: 'Vazhaiilai',
 };
